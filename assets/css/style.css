@@ -977,7 +977,7 @@ header .icons  i:hover {
     
     .products .product .price {
         display: flex;
-        font-size: 1px;
+        font-size: 5px;
         margin: 0;
         width: 125px;
         align-items: center;
@@ -998,7 +998,7 @@ header .icons  i:hover {
         align-items: center;
         width: 27px;
         justify-content: space-between;
-        font-size: 5px;
+        font-size: 7px;
     }
     
     
@@ -1013,7 +1013,7 @@ header .icons  i:hover {
         align-items: center;
         width: 27px;
         justify-content: space-between;
-        font-size: 5px;
+        font-size: 7px;
     }
     
     .products .product .li .like {
