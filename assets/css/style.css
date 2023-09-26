@@ -1037,8 +1037,7 @@ header .icons  i:hover {
 @media screen and (max-width: 590px) {
 
     .products {
-        border: none;
-        background: none;
+
     }
 }
 
