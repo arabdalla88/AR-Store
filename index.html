@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/47d1fa3ae5.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/main.js"></script>
+
+    <title>AR Store</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html"><img src="assets/pic/لوجو 500500.png" alt="logo" class="logo" /></a>
+      </div>
+
+      <div class="nav">
+        <ul>
+          <a href="index.html"><li>Home</li></a>
+          <a href="about-us.html"><li>About us</li></a>
+          <a href="contact-us.html"><li>Contact us</li></a>
+        </ul>
+
+        <a href="login.html"><button class="login">Login</button></a>
+
+        <i class="fa-solid fa-bars" style="color: p"></i>
+      </div>
+
+      <div class="search-bar">
+        <form action="" method="post">
+          <input
+            type="text"
+            name="search-bar"
+            id="search-bar"
+            placeholder="Search"
+          />
+          <button>
+            <i
+              class="fa-solid fa-magnifying-glass"
+              style="color: purple"
+            ></i>
+          </button>
+        </form>
+      </div>
+
+      <div class="icons">
+        
+        <i class="fa-solid fa-bell" style="color: purple"></i>
+        <i class="fa-solid fa-gear" style="color: purple"></i>
+      </div>
+    </header>
+
+
+    <section class="welcome">
+      <div class="box">
+        <div class="left">
+          <img src="assets/pic/BgmA4nBtaC2PflEPFeRJ2LB72Y7t7Gl80nJ1w5K5.jpeg" alt="pic"/>
+        </div>
+
+        <div class="right">
+          <h2>Welcome in <span>AR</span> Store</h2>
+
+          <h4>
+            The store sells stylish and modern T-shirts ,All types 
+            ,colors and sizes are available 
+            ,100% Cotton and High quality locking.
+          </h4>
+
+          <a href="login.html"><button>Join Us</button></a>
+        </div>
+      </div>
+
+      <div class="boxphone">
+        
+        <div class="rightphone">
+          <h2>Welcome in <span>AR</span> Store</h2>
+          
+          <h4>
+            The store sells stylish and modern T-shirts ,All types 
+            ,colors and sizes are available 
+            ,100% Cotton and High quality locking.
+          </h4>
+          
+          <a href="login.html"><button>Join Us</button></a>
+        </div>
+
+        <div class="leftphone">
+          <img src="assets/pic/BgmA4nBtaC2PflEPFeRJ2LB72Y7t7Gl80nJ1w5K5.jpeg" alt="pic"/>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="search">
+
+        <div class="box">
+            <div class="right">
+
+              <h2>You can search for any design here...</h2>
+              <div class="search-bar">
+                <form action="">
+                <input type="search" class="search-input" placeholder="search for your design...">
+                <button>
+                  <i class="fa-solid fa-magnifying-glass" style="color: white"></i>
+                </button>
+                </form>
+              </div>
+
+            </div>
+
+            <div class="left">
+              <img src="assets/pic/045MC1OuCfYkvL6aeb3XLasRwIG7UIDJmrMAj9G6.jpeg" alt="pic"/>
+            </div>
+          </div>
+
+          
+        <div class="boxphone">
+          <div class="rightphone">
+
+            <h2>You can search for any design here...</h2>
+            <div class="search-bar">
+              <form action="">
+              <input type="search" class="search-input" placeholder="search for your design...">
+              <button>
+                <i class="fa-solid fa-magnifying-glass" style="color: white"></i>
+              </button>
+              </form>
+            </div>
+
+          </div>
+
+          <div class="leftphone">
+            <img src="assets/pic/045MC1OuCfYkvL6aeb3XLasRwIG7UIDJmrMAj9G6.jpeg" alt="pic"/>
+          </div>
+        </div>
+    </section>
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <section class="main">
+
+    <section class="filter">
+
+<form action="">
+
+        <div class="box_search">
+          <div class="research">
+              <input type="text" placeholder="Search title, description, or tag .." wire:model="search" class="form-control">
+          </div>
+        </div>
+
+        <div class="box_filter">
+          <div class="sort-by">
+                  <select wire:model="sort_by" class="form-select">
+                    <option value="0">Sort By</option>
+                    <option value="Sales">Sales</option>
+                    <option value="Newest">Newest</option>
+                    <option value="Oldest">Oldest</option>
+                  </select>
+          </div>
+
+          <div class="category">
+                  <select wire:model="category" class="form-select">
+                      <option value="0">Category</option>
+                          <option value="7"> Hoodies </option>
+                          <option value="12"> T-shirts </option>
+                          <option value="14"> Wall Art - Tableaux </option>
+                    </select>
+          </div>
+
+          <div class="price">
+            <select wire:model="rows" class="form-select">
+              <option value="0">  Price</option>
+              <option value="50">  50</option>
+              <option value="100"> 100</option>
+              <option value="250"> 250</option>
+            </select>
+          </div>
+        </div>  
+
+</form>
+
+
+    </section>
+
+
+    <section class="products">
+
+      <div class="product">
+        <div class="img">
+        <img src="assets/pic/N1QFcj3OcRiaGdx0QqlfbxRZTr8ozxW4lOfDknPl.jpeg" alt="">
+        </div>
+        <div class="title">
+        <h2>Real Madrid T-shirt</h2>
+        </div>
+        <div class="price">
+        <h4>Price |</h4>
+        <p>200 L.E</p>        
+        </div>
+        <div class="op">
+          <div class="ad">
+            <p>add</p>
+            <div class="add"></div>
+          </div>
+          <div class="li">
+            <p>like</p>
+            <div class="like"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="img">
+        <img src="assets/pic/N1QFcj3OcRiaGdx0QqlfbxRZTr8ozxW4lOfDknPl.jpeg" alt="">
+        </div>
+        <div class="title">
+        <h2>Real Madrid T-shirt</h2>
+        </div>
+        <div class="price">
+        <h4>Price |</h4>
+        <p>200 L.E</p>        
+        </div>
+        <div class="op">
+          <div class="ad">
+            <p>add</p>
+            <div class="add"></div>
+          </div>
+          <div class="li">
+            <p>like</p>
+            <div class="like"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="img">
+        <img src="assets/pic/N1QFcj3OcRiaGdx0QqlfbxRZTr8ozxW4lOfDknPl.jpeg" alt="">
+        </div>
+        <div class="title">
+        <h2>Real Madrid T-shirt</h2>
+        </div>
+        <div class="price">
+        <h4>Price |</h4>
+        <p>200 L.E</p>        
+        </div>
+        <div class="op">
+          <div class="ad">
+            <p>add</p>
+            <div class="add"></div>
+          </div>
+          <div class="li">
+            <p>like</p>
+            <div class="like"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="img">
+        <img src="assets/pic/N1QFcj3OcRiaGdx0QqlfbxRZTr8ozxW4lOfDknPl.jpeg" alt="">
+        </div>
+        <div class="title">
+        <h2>Real Madrid T-shirt</h2>
+        </div>
+        <div class="price">
+        <h4>Price |</h4>
+        <p>200 L.E</p>        
+        </div>
+        <div class="op">
+          <div class="ad">
+            <p>add</p>
+            <div class="add"></div>
+          </div>
+          <div class="li">
+            <p>like</p>
+            <div class="like"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="img">
+        <img src="assets/pic/N1QFcj3OcRiaGdx0QqlfbxRZTr8ozxW4lOfDknPl.jpeg" alt="">
+        </div>
+        <div class="title">
+        <h2>Real Madrid T-shirt</h2>
+        </div>
+        <div class="price">
+        <h4>Price |</h4>
+        <p>200 L.E</p>        
+        </div>
+        <div class="op">
+          <div class="ad">
+            <p>add</p>
+            <div class="add"></div>
+          </div>
+          <div class="li">
+            <p>like</p>
+            <div class="like"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="img">
+        <img src="assets/pic/N1QFcj3OcRiaGdx0QqlfbxRZTr8ozxW4lOfDknPl.jpeg" alt="">
+        </div>
+        <div class="title">
+        <h2>Real Madrid T-shirt</h2>
+        </div>
+        <div class="price">
+        <h4>Price |</h4>
+        <p>200 L.E</p>        
+        </div>
+        <div class="op">
+          <div class="ad">
+            <p>add</p>
+            <div class="add"></div>
+          </div>
+          <div class="li">
+            <p>like</p>
+            <div class="like"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="img">
+        <img src="assets/pic/N1QFcj3OcRiaGdx0QqlfbxRZTr8ozxW4lOfDknPl.jpeg" alt="">
+        </div>
+        <div class="title">
+        <h2>Real Madrid T-shirt</h2>
+        </div>
+        <div class="price">
+        <h4>Price |</h4>
+        <p>200 L.E</p>        
+        </div>
+        <div class="op">
+          <div class="ad">
+            <p>add</p>
+            <div class="add"></div>
+          </div>
+          <div class="li">
+            <p>like</p>
+            <div class="like"></div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="product">
+        <div class="img">
+        <img src="assets/pic/N1QFcj3OcRiaGdx0QqlfbxRZTr8ozxW4lOfDknPl.jpeg" alt="">
+        </div>
+        <div class="title">
+        <h2>Real Madrid T-shirt</h2>
+        </div>
+        <div class="price">
+        <h4>Price |</h4>
+        <p>200 L.E</p>        
+        </div>
+        <div class="op">
+          <div class="ad">
+            <p>add</p>
+            <div class="add"></div>
+          </div>
+          <div class="li">
+            <p>like</p>
+            <div class="like"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="img">
+        <img src="assets/pic/N1QFcj3OcRiaGdx0QqlfbxRZTr8ozxW4lOfDknPl.jpeg" alt="">
+        </div>
+        <div class="title">
+        <h2>Real Madrid T-shirt</h2>
+        </div>
+        <div class="price">
+        <h4>Price |</h4>
+        <p>200 L.E</p>        
+        </div>
+        <div class="op">
+          <div class="ad">
+            <p>add</p>
+            <div class="add"></div>
+          </div>
+          <div class="li">
+            <p>like</p>
+            <div class="like"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="img">
+        <img src="assets/pic/N1QFcj3OcRiaGdx0QqlfbxRZTr8ozxW4lOfDknPl.jpeg" alt="">
+        </div>
+        <div class="title">
+        <h2>Real Madrid T-shirt</h2>
+        </div>
+        <div class="price">
+        <h4>Price |</h4>
+        <p>200 L.E</p>        
+        </div>
+        <div class="op">
+          <div class="ad">
+            <p>add</p>
+            <div class="add"></div>
+          </div>
+          <div class="li">
+            <p>like</p>
+            <div class="like"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </section>
+
+<!-- -------------------------------------------------------------------------------------------------------------------------------------     -->
+
+    <section class="num_bar">
+      <div class="num">
+        <div>
+        <p>1</p>
+        </div>
+        <div>
+        <p>2</p>
+        </div>
+        <div>
+        <p>3</p>
+        </div>
+        <div>
+        <p>4</p>
+        </div>
+        <div>
+        <p>5</p>
+        </div>
+        <div>
+        <p>6</p>
+        </div>
+      </div>
+    </section>
+
+<!-- -------------------------------------------------------------------------------------------------------------------------------------     -->
+    
+    <footer class="footer">
+      <div class="footer__addr">
+        <h1 class="footer__logo">AR STORE</h1>
+            
+        <h2>Contact</h2>
+        
+        <address>
+          5534 Somewhere In. The World 22193-10212<br>
+              
+          <a class="footer__btn" href="mailto:example@gmail.com">Email Us</a>
+        </address>
+      </div>
+      
+      <ul class="footer__nav">
+        <li class="nav__item">
+          <h2 class="nav__title">Media</h2>
+    
+          <ul class="nav__ul">
+            <li>
+              <a href="#">Online</a>
+            </li>
+    
+            <li>
+              <a href="#">Print</a>
+            </li>
+                
+            <li>
+              <a href="#">Alternative Ads</a>
+            </li>
+          </ul>
+        </li>
+        
+        <li class="nav__item nav__item--extra">
+          <h2 class="nav__title">Technology</h2>
+          
+          <ul class="nav__ul nav__ul--extra">
+            <li>
+              <a href="#">Hardware Design</a>
+            </li>
+            
+            <li>
+              <a href="#">Software Design</a>
+            </li>
+            
+            <li>
+              <a href="#">Digital Signage</a>
+            </li>
+            
+            <li>
+              <a href="#">Automation</a>
+            </li>
+            
+            <li>
+              <a href="#">Artificial Intelligence</a>
+            </li>
+            
+            <li>
+              <a href="#">IoT</a>
+            </li>
+          </ul>
+        </li>
+        
+        <li class="nav__item">
+          <h2 class="nav__title">Legal</h2>
+          
+          <ul class="nav__ul">
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+            
+            <li>
+              <a href="#">Terms of Use</a>
+            </li>
+            
+            <li>
+              <a href="#">Sitemap</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      
+      <div class="legal">
+        <p>&copy; 2023 Something. All rights reserved.</p>
+        
+        <div class="legal__links">
+          <span>Made with <span class="heart">♥</span> remotely from Anywhere</span>
+        </div>
+      </div>
+    </footer>
+    
+  </body>
+</html>
